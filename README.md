@@ -6,8 +6,7 @@ The **Secret Santa** application is a fun and interactive way to organize gift e
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/81da4432-abef-4a28-afe8-7c9f2f804bd6)
-![image](https://github.com/user-attachments/assets/f0416f16-94ac-4004-b559-304022f211ac)
-![image](https://github.com/user-attachments/assets/f9d70195-9429-46a0-a225-2a2578274bcd)
+
 
 
 ## Table of Contents
@@ -124,5 +123,6 @@ secret-santa/
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
 
 
