@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h2>Join Secret Santa Connect</h2>
+                    <p>Create Your Holiday Magic!</p>
+                </div>
+                <div class="card-body p-5">
+                    <form action="/register" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="group-code" class="form-label">Group Code</label>
+                                <input type="text" class="form-control" id="group-code" name="groupCode" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="wishlist" class="form-label">Your Wishlist (Optional)</label>
+                            <textarea class="form-control" id="wishlist" name="wishlist" rows="3" placeholder="List some gift ideas (comma-separated)"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="hint" class="form-label">Gift Hint (Optional)</label>
+                            <input type="text" class="form-control" id="hint" name="hint" placeholder="A subtle clue for your Secret Santa">
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-user-plus me-2"></i>Create Account
+                            </button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p>Already have an account? <a href="/login" class="text-primary">Login Here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
